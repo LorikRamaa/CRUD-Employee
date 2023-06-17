@@ -1,0 +1,105 @@
+body {
+  background-color: #ff5733;
+  font-family: "Roboto", sans-serif;
+}
+.title {
+  text-align: center;
+  color: #fff;
+}
+.form-container {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  flex-direction: column;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0;
+}
+.form-control input {
+  outline: none;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #838383;
+  padding: 10px;
+  transition: 0.3s linear;
+}
+
+.form-control input:focus {
+  border-color: #ff5733;
+}
+.button {
+  width: 50%;
+}
+#createBtn {
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 14px 8px;
+  width: 100%;
+}
+/* table */
+.container {
+  width: 70%;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+}
+.tableTitle {
+  text-align: center;
+  margin: 0;
+}
+.filterDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px 0;
+}
+#filter {
+  border: none;
+  border-bottom: 1px solid #838383;
+  outline: none;
+  margin: 15px 0;
+  padding: 10px;
+  transition: 0.3s linear;
+}
+table,
+tr,
+td,
+th {
+  border: 1px solid #838383;
+  padding: 10px;
+}
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background-color: #ddd;
+}
+#editBtn {
+  width: 45%;
+  background-color: green;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
+#deleteBtn {
+  width: 45%;
+  background-color: red;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+}
